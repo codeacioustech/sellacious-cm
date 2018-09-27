@@ -173,41 +173,8 @@ var calc_navbar_height = function() {
 			var smartActions = {
 			    
 			    // LOGOUT MSG 
-			    userLogout: function($this){
-			
-					// ask verification
-					$.SmartMessageBox({
-						title : "<i class='fa fa-sign-out txt-color-orangeDark'></i> Logout <span class='txt-color-orangeDark'><strong>" + $('#show-shortcut').text() + "</strong></span> ?",
-						content : $this.data('logout-msg') || "You can improve your security further after logging out by closing this opened browser",
-						buttons : '[No][Yes]'
-			
-					}, function(ButtonPressed) {
-						if (ButtonPressed == "Yes") {
-							$.root_.addClass('animated fadeOutUp');
-							setTimeout(logout, 1000);
-						}
-					});
-					function logout() {
-						window.location = $this.attr('href');
-					}
-			
-				},
+			    
 		
-				// RESET WIDGETS
-			    resetWidgets: function($this){
-					
-					$.SmartMessageBox({
-						title : "<i class='fa fa-refresh' style='color:green'></i> Clear Local Storage",
-						content : $this.data('reset-msg') || "Would you like to RESET all your saved widgets and clear LocalStorage?1",
-						buttons : '[No][Yes]'
-					}, function(ButtonPressed) {
-						if (ButtonPressed == "Yes" && localStorage) {
-							localStorage.clear();
-							location.reload();
-						}
-			
-					});
-			    },
 			    
 			    // LAUNCH FULLSCREEN 
 			    launchFullscreen: function(element){
@@ -312,15 +279,15 @@ var calc_navbar_height = function() {
 			   
 			};
 				
-			$.root_.on('click', '[data-action="userLogout"]', function(e) {
-				var $this = $(this);
-				smartActions.userLogout($this);
-				e.preventDefault();
+			// $.root_.on('click', '[data-action="userLogout"]', function(e) {
+			// 	var $this = $(this);
+			// 	smartActions.userLogout($this);
+			// 	e.preventDefault();
 				
-				//clear memory reference
-				$this = null;
+			// 	//clear memory reference
+			// 	$this = null;
 				
-			}); 
+			// }); 
 
 			/*
 			 * BUTTON ACTIONS 

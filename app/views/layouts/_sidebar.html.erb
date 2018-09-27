@@ -1,0 +1,21 @@
+<aside id="left-panel">
+
+  <!-- User info -->
+  <div class="login-info">
+    <span> <!-- User image size is adjusted inside CSS, it should stay as it -->
+      <a href="/users/edit" id="show-shortcut" data-action="toggleShortcut">
+        <%= image_tag 'avatars/sunny.png', alt: 'me', class: 'online' %>
+        <span>
+          <%= current_user.email %>
+        </span>
+      </a>
+
+    </span>
+  </div>
+  <nav>
+    <ul>
+      
+    </ul>
+  </nav>
+  
+</aside>

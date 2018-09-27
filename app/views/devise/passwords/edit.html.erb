@@ -1,25 +1,35 @@
-<h2>Change your password</h2>
+<div class="container">
+  <div class="col-lg-6 col-lg-offset-1">
+    <br /><br /><br /><br />
+    <div class="page-header">
+      <h1 style="font-size: 34px; text-align: center;">Change your password</h1>
+    </div>
 
-<%= form_for(resource, as: resource_name, url: password_path(resource_name), html: { method: :put }) do |f| %>
-  <%= devise_error_messages! %>
-  <%= f.hidden_field :reset_password_token %>
+    <%= form_for(resource, as: resource_name, url: password_path(resource_name), html: { method: :put, class: 'form-horizontal'}) do |f| %>
+      <fieldset>
+        <%= devise_error_messages! %>
+        <%= f.hidden_field :reset_password_token %>
+        
+        <div class="form-group">
+          <label class="col-md-2 control-label">Password </label>
+          <div class="col-md-10">
+            <%= f.password_field :password, autocomplete: "new-password", class: 'form-control', placeholder: 'Password' %>
+          </div>
+        </div>
 
-  <div class="field">
-    <%= f.label :password, "New password" %><br />
-    <% if @minimum_password_length %>
-      <em>(<%= @minimum_password_length %> characters minimum)</em><br />
+         <div class="form-group">
+          <label class="col-md-2 control-label">Confirm New Password </label>
+          <div class="col-md-10">
+            <%= f.password_field :password_confirmation, autocomplete: "new-password", class: 'form-control', placeholder: 'Confirm new password' %>
+          </div>
+        </div>
+    
+        <div class="actions">
+          <%= f.submit "Change my password", class: 'btn btn-primary pull-right' %>
+        </div>
+      </fieldset>
     <% end %>
-    <%= f.password_field :password, autofocus: true, autocomplete: "new-password" %>
+    <br />
+    <%= render "devise/shared/links" %>
   </div>
-
-  <div class="field">
-    <%= f.label :password_confirmation, "Confirm new password" %><br />
-    <%= f.password_field :password_confirmation, autocomplete: "off" %>
-  </div>
-
-  <div class="actions">
-    <%= f.submit "Change my password" %>
-  </div>
-<% end %>
-
-<%= render "devise/shared/links" %>
+</div> 

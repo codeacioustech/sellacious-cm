@@ -31,6 +31,26 @@
   </head>
 
   <body>
-    <%= yield %>
+    <%= render partial: 'layouts/header' if user_signed_in? %>
+    <%= render partial: 'layouts/sidebar' if user_signed_in? %>
+
+    <div class="col-lg-12" id="main" role="main">
+      <%= yield :ribbon %>
+      <% if notice %>
+        <div class="alert alert-success fade in" style="width: 80%;">
+        
+          <i class="fa-fw fa fa-check"></i>
+          <%= notice %>
+        </div>
+      <% end %>
+      <% if alert %>
+        <div class="alert alert-warning fade in" style="width: 80%;">
+        
+          <i class="fa-fw fa fa-warning"></i>
+          <%= alert %>
+        </div>
+      <% end %>
+      <%= yield %>
+    </div>
   </body>
 </html>
