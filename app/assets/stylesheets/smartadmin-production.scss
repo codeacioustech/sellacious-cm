@@ -5064,10 +5064,10 @@ button.ui-button::-moz-focus-inner {
   /* Firefox 3.6 */
   box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3);
   /*left: 50%;
-	 margin-left: -280px;*/
+   margin-left: -280px;*/
   outline: medium none;
   /*top: 10%;
-	 width: 560px;*/
+   width: 560px;*/
   z-index: 1050;
 }
 .ui-dialog .ui-dialog-titlebar {
@@ -7134,7 +7134,7 @@ div.wijmo-wijmenu .wijmo-wijmenu-child .wijmo-wijmenu-text {
 /*
  * JQUI STUFF
  */
-/*	Overlay	 */
+/*  Overlay  */
 .ui-widget-overlay {
   background-image: none;
   background: #AAA;
@@ -7253,8 +7253,8 @@ div.wijmo-wijmenu .wijmo-wijmenu-child .wijmo-wijmenu-text {
   font-size: 14px !important;
 }
 /*
-	 * Calendar
-	 */
+   * Calendar
+   */
 .ui-datepicker .ui-datepicker-next,
 .ui-datepicker .ui-datepicker-prev {
   text-align: center;
@@ -7272,12 +7272,12 @@ div.wijmo-wijmenu .wijmo-wijmenu-child .wijmo-wijmenu-text {
  * JS SLIDER
  * Copied from: js/plugin/noUiSlider/jquery.nouislider.css 
  */
-/*	General CSS resets;
- *		The target itself is not affected, allowing
- *		the remainder of the document to use an
- *		alternate box-sizing model;
- *		Support for box-sizing is wide spread:
- *		http://caniuse.com/#search=box-sizing
+/*  General CSS resets;
+ *    The target itself is not affected, allowing
+ *    the remainder of the document to use an
+ *    alternate box-sizing model;
+ *    Support for box-sizing is wide spread:
+ *    http://caniuse.com/#search=box-sizing
  */
 .noUi-target * {
   -webkit-box-sizing: border-box;
@@ -7290,9 +7290,9 @@ div.wijmo-wijmenu .wijmo-wijmenu-child .wijmo-wijmenu-text {
   -ms-user-select: none;
   cursor: default;
 }
-/*	Main slider bar;
- *		Standard styles no longer incorrectly force a
- *		width or height on the slider.
+/*  Main slider bar;
+ *    Standard styles no longer incorrectly force a
+ *    width or height on the slider.
  */
 .noUi-base {
   width: 100%;
@@ -7306,9 +7306,9 @@ div.wijmo-wijmenu .wijmo-wijmenu-child .wijmo-wijmenu-text {
 .noUi-origin-lower {
   background: #72a8d7;
 }
-/*	Handles + active state;
- *		The :after pseudo-element wont inherit
- *		box-sizing, so it needs to applied manually.
+/*  Handles + active state;
+ *    The :after pseudo-element wont inherit
+ *    box-sizing, so it needs to applied manually.
  */
 .noUi-handle {
   background: #858585;
@@ -7339,9 +7339,9 @@ div.wijmo-wijmenu .wijmo-wijmenu-child .wijmo-wijmenu-text {
   height: 100%;
   border: 1px solid #dddddd;
 }
-/*	Styling-only classes;
- *		Structured to prevent double declarations
- *		for various states of the slider.
+/*  Styling-only classes;
+ *    Structured to prevent double declarations
+ *    for various states of the slider.
  */
 .noUi-connect {
   background: #3276b1;
@@ -7350,9 +7350,9 @@ div.wijmo-wijmenu .wijmo-wijmenu-child .wijmo-wijmenu-text {
   background: #eeeeee;
   border: none;
 }
-/*	Functional styles for handle positioning;
- *		Note that the origins have z-index 0, the base has
- *		z-index 1; This fixes a bug where borders become invisible.
+/*  Functional styles for handle positioning;
+ *    Note that the origins have z-index 0, the base has
+ *    z-index 1; This fixes a bug where borders become invisible.
  */
 .noUi-origin {
   position: absolute;
@@ -7367,9 +7367,9 @@ div.wijmo-wijmenu .wijmo-wijmenu-child .wijmo-wijmenu-text {
 .noUi-z-index {
   z-index: 10;
 }
-/*	Adaptations for the vertical slider;
- *		Some standard styles have been extended to keep
- *		exceptions for the vertical slider as minimal as possible.
+/*  Adaptations for the vertical slider;
+ *    Some standard styles have been extended to keep
+ *    exceptions for the vertical slider as minimal as possible.
  */
 .noUi-vertical {
   width: 10px;
@@ -7382,12 +7382,12 @@ div.wijmo-wijmenu .wijmo-wijmenu-child .wijmo-wijmenu-text {
 .noUi-vertical .noUi-handle {
   margin: -8px 0 0 -3px;
 }
-/*	Various alternate slider states;
- *		Support for transition is widely available,
- *		Only IE7, IE8 and IE9 will ignore these rules.
- *		Since this is merely a progressive enhancement,
- *		this is no problem at all.
- *		http://caniuse.com/#search=transition
+/*  Various alternate slider states;
+ *    Support for transition is widely available,
+ *    Only IE7, IE8 and IE9 will ignore these rules.
+ *    Since this is merely a progressive enhancement,
+ *    this is no problem at all.
+ *    http://caniuse.com/#search=transition
  */
 .noUi-target[disabled] .noUi-base {
   background: #999999;
@@ -8093,8 +8093,8 @@ textarea.clone {
   }
 }
 /*
-	 * SMART FORMS
-	 */
+   * SMART FORMS
+   */
 .smart-form *,
 .smart-form *:after,
 .smart-form *:before {
@@ -8225,8 +8225,8 @@ textarea.clone {
   -webkit-appearance: none;
 }
 /*
-		 * File inputs
-		 */
+     * File inputs
+     */
 .smart-form .input-file .button {
   position: absolute;
   top: 4px;
@@ -8251,8 +8251,8 @@ textarea.clone {
   opacity: 0;
 }
 /*
-		 * Selects
-		 */
+     * Selects
+     */
 .smart-form .select i {
   position: absolute;
   top: 10px;
@@ -8282,8 +8282,8 @@ textarea.clone {
   height: auto;
 }
 /*
-		 * Text areas
-		 */
+     * Text areas
+     */
 .smart-form .textarea textarea {
   height: auto;
   resize: none;
@@ -8298,8 +8298,8 @@ textarea.clone {
   height: auto;
 }
 /*
-		 * Radio and checkboxes
-		 */
+     * Radio and checkboxes
+     */
 .smart-form .radio,
 .smart-form .checkbox {
   margin-bottom: 4px;
@@ -8389,8 +8389,8 @@ textarea.clone {
   margin-bottom: 4px;
 }
 /*
-		 * toggles
-		 */
+     * toggles
+     */
 .smart-form .toggle {
   margin-bottom: 4px;
   padding-right: 61px;
@@ -8457,8 +8457,8 @@ textarea.clone {
   right: 36px;
 }
 /*
-		 * ratings
-		 */
+     * ratings
+     */
 .smart-form .rating {
   margin-bottom: 4px;
   font-size: 13px;
@@ -8483,8 +8483,8 @@ textarea.clone {
   cursor: pointer;
 }
 /*
-		 * buttons
-		 */
+     * buttons
+     */
 .smart-form .button {
   float: right;
   height: 31px;
@@ -8533,8 +8533,8 @@ textarea.clone {
   padding-left: 37px;
 }
 /*
-		 * grid
-		 */
+     * grid
+     */
 .smart-form .row {
   margin: 0 -15px;
 }
@@ -8585,8 +8585,8 @@ textarea.clone {
   }
 }
 /*
-		 * tooltips
-		 */
+     * tooltips
+     */
 .smart-form .select select {
   padding: 5px;
 }
@@ -8719,8 +8719,8 @@ textarea.clone {
   margin-top: 5px;
 }
 /*
-		 * normal state
-		 */
+     * normal state
+     */
 .smart-form .input input,
 .smart-form .select select,
 .smart-form .textarea textarea,
@@ -8764,8 +8764,8 @@ textarea.clone {
   color: #A2A2A2;
 }
 /*
-		 * hover state
-		 */
+     * hover state
+     */
 .smart-form .input:hover input,
 .smart-form .select:hover select,
 .smart-form .textarea:hover textarea,
@@ -8788,8 +8788,8 @@ textarea.clone {
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.1);
 }
 /*
-		 * radio/toggle/checkbox active state
-		 */
+     * radio/toggle/checkbox active state
+     */
 .smart-form .radio:active i,
 .smart-form .checkbox:active i,
 .smart-form .toggle:active i {
@@ -8798,8 +8798,8 @@ textarea.clone {
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.1);
 }
 /*
-		 * focus state
-		 */
+     * focus state
+     */
 .smart-form .input input:focus,
 .smart-form .select select:focus,
 .smart-form .textarea textarea:focus,
@@ -8809,8 +8809,8 @@ textarea.clone {
   border-color: #3276B1;
 }
 /*
-		 * checked state
-		 */
+     * checked state
+     */
 .smart-form .radio input + i:after {
   background-color: #3276B1;
 }
@@ -8826,8 +8826,8 @@ textarea.clone {
   color: #3276B1;
 }
 /*
-		 * error state
-		 */
+     * error state
+     */
 .smart-form .state-error input,
 .smart-form .state-error select,
 .smart-form .state-error textarea,
@@ -8862,8 +8862,8 @@ textarea.clone {
   color: #ed1c24;
 }
 /*
-		 * success state
-		 */
+     * success state
+     */
 .smart-form .state-success input,
 .smart-form .state-success select,
 .smart-form .state-success textarea,
@@ -8884,8 +8884,8 @@ textarea.clone {
   box-shadow: 0 0 0 9px honeyDew;
 }
 /*
-		 * disable state
-		 */
+     * disable state
+     */
 .smart-form .input.state-disabled input,
 .smart-form .select.state-disabled,
 .smart-form .textarea.state-disabled,
@@ -8916,8 +8916,8 @@ textarea.clone {
   background-color: #333;
 }
 /*
-		 * submit state
-		 */
+     * submit state
+     */
 .smart-form .message {
   display: none;
   color: #6fb679;
@@ -8944,8 +8944,8 @@ textarea.clone {
   text-align: center;
 }
 /*
-		 * JQUERY UI UPDATE
-		 */
+     * JQUERY UI UPDATE
+     */
 .smart-form .ui-widget-content .ui-spinner-input {
   margin: 0px;
   border: 0px;
@@ -8953,94 +8953,94 @@ textarea.clone {
   height: 29px;
 }
 /*
-		 * date picker
-		
-		.ui-datepicker {
-			display: none;
-			padding: 10px 12px;
-			background: #fff;
-			box-shadow: 0 0 10px rgba(0,0,0,.3);
-			font: 13px/1.55 'Open Sans', Helvetica, Arial, sans-serif;
-			text-align: center;
-			color: #666;
-		}
-		.ui-datepicker a {
-			color: #404040;
-		}
-		.ui-datepicker-header {
-			position: relative;
-			margin: -10px -12px 10px;
-			padding: 10px;
-			border-bottom: 1px solid rgba(0,0,0,.1);
-			font-size: 15px;
-			line-height: 27px;
-		}
-		.ui-datepicker-prev, .ui-datepicker-next {
-			position: absolute;
-			top: 0;
-			display: block;
-			width: 47px;
-			height: 47px;
-			font-size: 15px;
-			line-height: 47px;
-			text-decoration: none;
-			cursor: pointer;
-		}
-		.ui-datepicker-prev {
-			left: 0;
-		}
-		.ui-datepicker-next {
-			right: 0;
-		}
-		.ui-datepicker-calendar {
-			border-collapse: collapse;
-			font-size: 13px;
-			line-height: 27px;
-		}
-		.ui-datepicker-calendar th {
-			color: #999;
-		}
-		.ui-datepicker-calendar a, .ui-datepicker-calendar span {
-			display: block;
-			width: 31px;
-			margin: auto;
-			text-decoration: none;
-			color: #404040;
-			text-align:center;
-		}
-		.ui-datepicker-unselectable.ui-state-disabled {
-			
-		}
-		.ui-datepicker-unselectable.ui-state-disabled > span {
-			color:#bfbfbf;
-			background-color: #FAFCFD;
-		}
-		
-		.ui-datepicker-calendar a:hover {
-			background: #3276B1;
-			color:#fff;
-		}
-		.ui-datepicker-calendar span {
-			
-		}
-		.ui-datepicker-today a {
-			font-weight: 700;
-		}
-		.ui-datepicker-calendar .ui-state-active {
-			background: rgba(0,0,0,.05);
-			cursor: default;
-		}
-		.ui-datepicker-inline {
-			border: 2px solid #e5e5e5;
-			background: #fff;
-			box-shadow: none;
-		}
-		.ui-datepicker-inline .ui-datepicker-calendar {
-			width: 100%;
-		} */
+     * date picker
+    
+    .ui-datepicker {
+      display: none;
+      padding: 10px 12px;
+      background: #fff;
+      box-shadow: 0 0 10px rgba(0,0,0,.3);
+      font: 13px/1.55 'Open Sans', Helvetica, Arial, sans-serif;
+      text-align: center;
+      color: #666;
+    }
+    .ui-datepicker a {
+      color: #404040;
+    }
+    .ui-datepicker-header {
+      position: relative;
+      margin: -10px -12px 10px;
+      padding: 10px;
+      border-bottom: 1px solid rgba(0,0,0,.1);
+      font-size: 15px;
+      line-height: 27px;
+    }
+    .ui-datepicker-prev, .ui-datepicker-next {
+      position: absolute;
+      top: 0;
+      display: block;
+      width: 47px;
+      height: 47px;
+      font-size: 15px;
+      line-height: 47px;
+      text-decoration: none;
+      cursor: pointer;
+    }
+    .ui-datepicker-prev {
+      left: 0;
+    }
+    .ui-datepicker-next {
+      right: 0;
+    }
+    .ui-datepicker-calendar {
+      border-collapse: collapse;
+      font-size: 13px;
+      line-height: 27px;
+    }
+    .ui-datepicker-calendar th {
+      color: #999;
+    }
+    .ui-datepicker-calendar a, .ui-datepicker-calendar span {
+      display: block;
+      width: 31px;
+      margin: auto;
+      text-decoration: none;
+      color: #404040;
+      text-align:center;
+    }
+    .ui-datepicker-unselectable.ui-state-disabled {
+      
+    }
+    .ui-datepicker-unselectable.ui-state-disabled > span {
+      color:#bfbfbf;
+      background-color: #FAFCFD;
+    }
+    
+    .ui-datepicker-calendar a:hover {
+      background: #3276B1;
+      color:#fff;
+    }
+    .ui-datepicker-calendar span {
+      
+    }
+    .ui-datepicker-today a {
+      font-weight: 700;
+    }
+    .ui-datepicker-calendar .ui-state-active {
+      background: rgba(0,0,0,.05);
+      cursor: default;
+    }
+    .ui-datepicker-inline {
+      border: 2px solid #e5e5e5;
+      background: #fff;
+      box-shadow: none;
+    }
+    .ui-datepicker-inline .ui-datepicker-calendar {
+      width: 100%;
+    } */
 /*
-		 * model
-		 */
+     * model
+     */
 .smart-form-modal {
   position: fixed;
   z-index: 1;
@@ -9057,8 +9057,8 @@ textarea.clone {
   background: rgba(0, 0, 0, 0.7);
 }
 /*
-		 * Time picker
-		 */
+     * Time picker
+     */
 .ui-timepicker-div .ui-widget-header {
   margin-bottom: 8px;
 }
@@ -9097,8 +9097,8 @@ textarea.clone {
   margin: 0 40% 10px 10px;
 }
 /*
-		 * Large, small and extra small fields
-		 */
+     * Large, small and extra small fields
+     */
 .smart-form input.input-lg {
   height: 44px;
   padding: 10px 16px;
@@ -9136,7 +9136,7 @@ textarea.clone {
   top: 17px;
 }
 /* aep fix for aspnet mvc
-		   from abelepereira  */
+       from abelepereira  */
 .smart-form .checkbox input + input[type=hidden] + i:after {
   content: '\f00c';
   top: -1px;
@@ -9619,8 +9619,8 @@ td.fc-other-month,
   padding-right: 15px;
 }
 /*
-	* Select color
-	*/
+  * Select color
+  */
 .btn-select-tick i {
   display: none;
 }
@@ -9633,8 +9633,8 @@ td.fc-other-month,
   opacity: 1 !important;
 }
 /* 
-	* Drag and drop events
-	*/
+  * Drag and drop events
+  */
 #external-events > li {
   margin: 6px 4px 6px 0;
   display: inline-block;
@@ -9801,7 +9801,7 @@ tr.unread.highlight td {
   width: 200px;
   padding: 10px 0 10px 14px;
   /*overflow-y: auto;
-	overflow-x: hidden;*/
+  overflow-x: hidden;*/
   -webkit-overflow-scrolling: touch;
   z-index: 1;
 }
@@ -9890,8 +9890,8 @@ tr.unread.highlight td {
   color: #3276b1;
 }
 /*
-	* Email opened
-	*/
+  * Email opened
+  */
 .email-open-header {
   margin: -10px 0 0 0;
   font-size: 20px;
@@ -10575,48 +10575,48 @@ blockquote.twitter-tweet a:focus {
   text-decoration: underline;
 }
 /*.product-view {
-	min-height: 380px;
+  min-height: 380px;
 
-	&> img {
-		width:100%;
-		height: auto;
-		background: fade(#333,10%);
-	}
+  &> img {
+    width:100%;
+    height: auto;
+    background: fade(#333,10%);
+  }
 
-	.price {
-		position: absolute;
-	    right: 10px;
-	    margin-top: -35px;
-	    padding: 14px 15px 14px 19px;
-	    background: #ed1c24;
-	    color: #FFF;
-	    border-radius: 50%;
-	    font-size: 25px;
-	    font-weight: 300;
+  .price {
+    position: absolute;
+      right: 10px;
+      margin-top: -35px;
+      padding: 14px 15px 14px 19px;
+      background: #ed1c24;
+      color: #FFF;
+      border-radius: 50%;
+      font-size: 25px;
+      font-weight: 300;
 
-	    &>b {
-	    	font-weight: 300;
-			position: absolute;
-			margin-top: 1px;
-    		font-size: 16px;
-			left: 10px;
-	    }
-	}
+      &>b {
+        font-weight: 300;
+      position: absolute;
+      margin-top: 1px;
+        font-size: 16px;
+      left: 10px;
+      }
+  }
 
-	h2 {
-		font-size:18px;
+  h2 {
+    font-size:18px;
 
-	}
+  }
 
-	p {
-		font-size: 12px;
-		margin-top:3px;
-		width:90%;
-		width: calc(~"100% - 10px");
-		white-space: nowrap;
-		overflow: hidden;
-		text-overflow: ellipsis;
-	}
+  p {
+    font-size: 12px;
+    margin-top:3px;
+    width:90%;
+    width: calc(~"100% - 10px");
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
 }*/
 .product-content {
   border: 1px solid #dfe5e9;
@@ -11007,7 +11007,7 @@ input[type="color"]:focus,
   padding: 10px 14px;
   position: relative;
   /*position:relative;
-	 left:0px;*/
+   left:0px;*/
 }
 body.container {
   position: absolute;
@@ -11356,6 +11356,7 @@ aside {
  */
 #main {
   margin-left: 220px;
+  padding: 0;
   padding-bottom: 52px;
   min-height: 500px;
   position: relative;
@@ -11508,7 +11509,7 @@ nav > ul > li:last-child.open {
 }
 /* All levels 
 nav ul li {
-	overflow: hidden;
+  overflow: hidden;
 }*/
 /* All levels */
 nav ul li a {
@@ -13322,8 +13323,8 @@ img.away {
 }
 /* removed as it was too jerky */
 /*#main {
-	-webkit-transition: all .2s ease-out;
-	transition: all .2s ease-out;
+  -webkit-transition: all .2s ease-out;
+  transition: all .2s ease-out;
 }*/
 /*
  * CHARTS
@@ -13617,7 +13618,7 @@ img.away {
 
  .ajax-dropdown .btn-group >:last-child {
  border-right-width:1px !important;
- }	*/
+ }  */
 .ajax-dropdown .btn-group .btn:active {
   top: 0px;
   left: 0px;
@@ -15788,21 +15789,21 @@ label:hover input[type="checkbox"][disabled].checkbox:checked + span:before {
  */
 /* Navigation icon first level 
 .desktop-detected nav > ul > li > a:hover i {
-	-webkit-animation-name: wobble;
-	-moz-animation-name: wobble;
-	-o-animation-name: wobble;
-	animation-name: wobble;
+  -webkit-animation-name: wobble;
+  -moz-animation-name: wobble;
+  -o-animation-name: wobble;
+  animation-name: wobble;
 }
 
 .desktop-detected nav > ul > li > a:hover i {
-	-webkit-animation-duration: .7s;
-	-moz-animation-duration: .7s;
-	-o-animation-duration: .7s;
-	animation-duration: .7s;
-	-webkit-animation-fill-mode: both;
-	-moz-animation-fill-mode: both;
-	-o-animation-fill-mode: both;
-	animation-fill-mode: both;
+  -webkit-animation-duration: .7s;
+  -moz-animation-duration: .7s;
+  -o-animation-duration: .7s;
+  animation-duration: .7s;
+  -webkit-animation-fill-mode: both;
+  -moz-animation-fill-mode: both;
+  -o-animation-fill-mode: both;
+  animation-fill-mode: both;
 }*/
 /* All dropdowns */
 .open > .dropdown-menu {
@@ -15834,8 +15835,8 @@ label:hover input[type="checkbox"][disabled].checkbox:checked + span:before {
   animation-fill-mode: both;
 }
 /*
-	 * USED WITH DEMO
-	 */
+   * USED WITH DEMO
+   */
 .square {
   display: block;
   float: left;
@@ -15844,15 +15845,15 @@ label:hover input[type="checkbox"][disabled].checkbox:checked + span:before {
   width: 20px;
 }
 /*
-	 * RESET BOOTSTRAP DEFAULT IE FILTER
-	 */
+   * RESET BOOTSTRAP DEFAULT IE FILTER
+   */
 [class^="bg-"],
 [class*=" bg-"] {
   filter: none !important;
 }
 /*
-	 * TEXT COLOR
-	 */
+   * TEXT COLOR
+   */
 .txt-color-blue {
   color: #57889c !important;
 }
@@ -15914,8 +15915,8 @@ label:hover input[type="checkbox"][disabled].checkbox:checked + span:before {
   color: #a65858 !important;
 }
 /*
-	 * BACKGROUNDS
-	 */
+   * BACKGROUNDS
+   */
 .bg-color-blue {
   background-color: #57889c !important;
 }
@@ -16112,9 +16113,9 @@ label:hover input[type="checkbox"][disabled].checkbox:checked + span:before {
     padding-right: 30px;
   }
   /* added new class per version 1.3 
-	html, body {
-		overflow-x: hidden !important;
-	}*/
+  html, body {
+    overflow-x: hidden !important;
+  }*/
   #fullscreen > :first-child > a {
     display: none !important;
   }
@@ -16240,8 +16241,8 @@ label:hover input[type="checkbox"][disabled].checkbox:checked + span:before {
     overflow: hidden;
   }
   /*
-	 * Header search
-	 */
+   * Header search
+   */
   .header-search > input[type="text"] {
     margin-top: 9px;
   }
@@ -16326,8 +16327,8 @@ label:hover input[type="checkbox"][disabled].checkbox:checked + span:before {
     overflow: hidden;
   }
   /*
-	 * Header search
-	 */
+   * Header search
+   */
   .header-search > input[type="text"] {
     margin-top: 9px;
   }
@@ -16434,20 +16435,20 @@ label:hover input[type="checkbox"][disabled].checkbox:checked + span:before {
     left: 0px;
   }
   /*.fixed-navigation #left-panel {
-		position:absolute !important;
-	}*/
+    position:absolute !important;
+  }*/
   body.fixed-navigation.hidden-menu {
     overflow: hidden !important;
   }
   /*
-	 * fixed ribbon
-	 */
+   * fixed ribbon
+   */
   .fixed-ribbon #content {
     padding-top: 52px;
   }
   /*
-	 * header search
-	 */
+   * header search
+   */
   .header-search {
     display: none;
   }
@@ -16612,8 +16613,8 @@ label:hover input[type="checkbox"][disabled].checkbox:checked + span:before {
     left: 0px;
   }
   /*
-	 * header search
-	 */
+   * header search
+   */
   .header-search {
     display: none;
   }
@@ -16839,8 +16840,8 @@ label:hover input[type="checkbox"][disabled].checkbox:checked + span:before {
     margin-left: -13px;
   }
   /*
-	 * header search
-	 */
+   * header search
+   */
   .header-search {
     display: none;
   }
